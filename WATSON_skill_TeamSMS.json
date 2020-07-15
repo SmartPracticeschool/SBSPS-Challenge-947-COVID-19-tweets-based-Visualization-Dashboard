@@ -1,0 +1,566 @@
+{
+  "intents": [
+    {
+      "intent": "COVID_Case_Count",
+      "examples": [
+        {
+          "text": "are people infected in my city ?"
+        },
+        {
+          "text": "what is the count of coronavirus infected people?"
+        },
+        {
+          "text": "Does MA have a confirmed COVID case?"
+        },
+        {
+          "text": "Does the US have a confirmed COVID case?"
+        },
+        {
+          "text": "has anyone died of coronavirus in my state?"
+        },
+        {
+          "text": "How has coronavirus spread around the world?"
+        },
+        {
+          "text": "how many cases are there in Texas?"
+        },
+        {
+          "text": "How many cases of COVID-19 are in the US?"
+        },
+        {
+          "text": "How many cases of the virus are there in the world?"
+        },
+        {
+          "text": "How many coronavirus cases are there in my area?"
+        },
+        {
+          "text": "how many current cases are there in Illinois"
+        },
+        {
+          "text": "How many folks in Texas are infected?"
+        },
+        {
+          "text": "how many patients are infected with corona virus in collin county"
+        },
+        {
+          "text": "how many people are sick in the US?"
+        },
+        {
+          "text": "how many people are infected"
+        },
+        {
+          "text": "How many people are infected in Illinois?"
+        },
+        {
+          "text": "How many people are infected with Corona virus currently in texas?"
+        },
+        {
+          "text": "How many people are sick throughout the world?"
+        },
+        {
+          "text": "how many people have contracted the virus in pennysylvania"
+        },
+        {
+          "text": "How many people have covid-19 in the whole world?"
+        },
+        {
+          "text": "How many people have the virus in our county"
+        },
+        {
+          "text": "how many people have the virus?"
+        },
+        {
+          "text": "how many people in texas have corona virus?"
+        },
+        {
+          "text": "Which countries has covid-19 been detected in?"
+        },
+        {
+          "text": "Where can I find information about covid 19 for the world?"
+        },
+        {
+          "text": "Where are cases?"
+        },
+        {
+          "text": "covid number in my state?"
+        },
+        {
+          "text": "is anyone near me sick"
+        },
+        {
+          "text": "how many ppl are infected in the us?"
+        },
+        {
+          "text": "How many people total have coronavirus?"
+        },
+        {
+          "text": "How many people in the world have died?"
+        },
+        {
+          "text": "Are there any cases near me"
+        }
+      ],
+      "description": "Number of cases nearby."
+    },
+    {
+      "intent": "COVID_Govt_Emergency",
+      "examples": [
+        {
+          "text": "Is there a nationwide curfew?"
+        },
+        {
+          "text": "emergency helpline number"
+        },
+        {
+          "text": "covid helpline number"
+        },
+        {
+          "text": "covid 19 emergency number"
+        },
+        {
+          "text": "covid 19 emergency helpline number"
+        },
+        {
+          "text": "Is the US well prepared for covid 19"
+        },
+        {
+          "text": "How long will the state of emergency last?"
+        },
+        {
+          "text": "How long has the national emergency been in place?"
+        },
+        {
+          "text": "A national emergency was declared in the United States. What does this mean?"
+        },
+        {
+          "text": "Tell me about the Coronavirus response"
+        },
+        {
+          "text": "What are the crisis measures currently in place?"
+        },
+        {
+          "text": "What does a state of emergency mean?"
+        },
+        {
+          "text": "What has our government already done to reduce the risk of spreading the disease"
+        },
+        {
+          "text": "What is a national emergency?"
+        },
+        {
+          "text": "What is the Government doing about Covid?"
+        },
+        {
+          "text": "What measurements is the government taking?"
+        },
+        {
+          "text": "What measures is the US taking against covid-19?"
+        },
+        {
+          "text": "When will the national emergency end?"
+        },
+        {
+          "text": "Can the government close public places?"
+        },
+        {
+          "text": "How does the state of emergency affect me?"
+        },
+        {
+          "text": "How is the United States prepared for the spread of covid 19?"
+        },
+        {
+          "text": "How is the US government addressing the spread of covid-19?"
+        },
+        {
+          "text": "Is the government legally allowed to close shops and restaurants?"
+        },
+        {
+          "text": "is the government ready for covid"
+        }
+      ],
+      "description": "Government readiness questions."
+    },
+    {
+      "intent": "affectedcity",
+      "examples": [
+        {
+          "text": "major affected cities in india"
+        },
+        {
+          "text": "what are major affected cities"
+        },
+        {
+          "text": "major affected city"
+        },
+        {
+          "text": "major affected cities by covid19"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "COVID_Description",
+      "examples": [
+        {
+          "text": "What is covid"
+        },
+        {
+          "text": "what is the coronavirus?"
+        },
+        {
+          "text": "What is corona virus"
+        },
+        {
+          "text": "What does covid stand for?"
+        },
+        {
+          "text": "origin of coronavirus"
+        },
+        {
+          "text": "what is the corona virus?"
+        },
+        {
+          "text": "Is covid a disease?"
+        },
+        {
+          "text": "I heard about covid what is it?"
+        },
+        {
+          "text": "How dangerous is this?"
+        },
+        {
+          "text": "Has the cause of COVID-19 been identified?"
+        },
+        {
+          "text": "covid what is it"
+        },
+        {
+          "text": "Where can I find more information about covid 19?"
+        },
+        {
+          "text": "Where can I learn more about covid?"
+        },
+        {
+          "text": "where did corona virus start from?"
+        },
+        {
+          "text": "where did covid come from?"
+        },
+        {
+          "text": "Where did the coronavirus come from?"
+        },
+        {
+          "text": "what is the Corona Virus"
+        },
+        {
+          "text": "what is novel coronavirus?"
+        },
+        {
+          "text": "What is COVID?"
+        },
+        {
+          "text": "what is covid19"
+        },
+        {
+          "text": "what is covid-19"
+        },
+        {
+          "text": "What is COVID-19?"
+        },
+        {
+          "text": "What is Corona virus?"
+        }
+      ],
+      "description": "Describe Covid-19."
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "hi"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "will you help me"
+        }
+      ],
+      "description": "to welcome a user"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "covid_description",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "what is covid19",
+          "synonyms": [
+            "describe covid19"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "covidcase_count",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "total number of covid cases",
+          "synonyms": [
+            "covid 19 cases"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "what is covid case count",
+          "synonyms": [
+            "covid 19 case coun"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "majorcity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "major affected city",
+          "synonyms": [
+            "affected cities"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "welcome_entity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hi",
+          "synonyms": [
+            "hello",
+            "hey"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "govt_emergency",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "government emergency service",
+          "synonyms": [
+            "government",
+            "emergency",
+            "helpline",
+            "emergency helpline number",
+            "helpline number"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "covid_description",
+      "output": {
+        "generic": [
+          {
+            "title": "Covid - 19",
+            "source": "https://images.unsplash.com/photo-1588781553983-474ccfee18bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or exhales. These droplets are too heavy to hang in the air, and quickly fall on floors or surfaces."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#COVID_Description",
+      "dialog_node": "node_8_1594630105643",
+      "previous_sibling": "node_9_1594629881491"
+    },
+    {
+      "type": "standard",
+      "title": "covidcase_count",
+      "output": {
+        "generic": [
+          {
+            "title": "Covid 19",
+            "source": "https://cdn.statcdn.com/Infographic/images/normal/21811.jpeg",
+            "description": "",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Total Covid 19 confirmed cases are 878K and they're still increasing. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#COVID_Case_Count",
+      "dialog_node": "node_9_1594629881491",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Government emergency number",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tamil nadu - 044-29510500"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Maharshtra :  022-22027990"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "UP -18001805145"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#COVID_Govt_Emergency",
+      "dialog_node": "node_3_1594656588702",
+      "previous_sibling": "node_8_1594630105643"
+    },
+    {
+      "type": "standard",
+      "title": "Major affected cities",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Top states/ cities affected : Maharashta, Gujrat, Tamil nadu, Delhi, Chennai, Rajsthan"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#affectedcity",
+      "dialog_node": "node_3_1594656908896",
+      "previous_sibling": "node_3_1594656588702"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1594656908896",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. Welcome to Team SMS bot, how may I assist You?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
